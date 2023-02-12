@@ -34,7 +34,7 @@ const refs = {
 const STORAGE_KEY = "feedback-msg";
 
 refs.form.addEventListener("submit", onFormSubmit);
-refs.textarea.addEventListener("input", onTextareaInput, 1000);
+refs.textarea.addEventListener("input", onTextareaInput);
 
 populateTextarea();
 
@@ -52,7 +52,7 @@ function onFormSubmit(e) {
 
 function onTextareaInput(e) {
     // Получаем значения которое вводим в инпут сообщения
-    const message = e.target.value;
+    const message = e.currentTarget.value;
 
     // Записыввем в локал сторедж, добавляем троттл
     localStorage.setItem(STORAGE_KEY, message);
