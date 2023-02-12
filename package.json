@@ -1,0 +1,23 @@
+{
+  "name": "localstorage-goit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladimirKovalenko1986/localstorage-goit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladimirKovalenko1986/localstorage-goit/issues"
+  },
+  "homepage": "https://github.com/VladimirKovalenko1986/localstorage-goit#readme",
+  "dependencies": {
+    "lodash.throttle": "^4.1.1"
+  }
+}
